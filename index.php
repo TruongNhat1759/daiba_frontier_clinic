@@ -1,0 +1,479 @@
+<?php include_once(dirname(__FILE__) . "/assets/inc/header.html"); ?>
+  <div id="mainvisual">
+    <header id="header">
+      <h1 id="logo"><a href="./"><img src="./assets/images/logo.png" alt="Daiba frontier clinic"></a></h1>
+      <p class="menu-icon"><span><span class="menu-txt">MENU</span></span></p>
+    </header>
+    <div class="container">
+      <div class="mainvisual-image">
+        <picture>
+          <source media="(max-width: 768px)" srcset="./assets/images/mainvisual_banner_sp.png">
+          <img src="./assets/images/mainvisual_banner.png" alt="歯周病">
+        </picture>
+      </div>
+    </div>
+    <nav id="gnavi">
+      <ul>
+        <li><a href="./">トップ<span>Top</span></a></li>
+        <li><a href="./service">診療案内<span>Service</span></a></li>
+        <li><a href="./price">料金<span>Price</span></a></li>
+        <li><a href="./staff">院長・スタッフ紹介<span>Staff</span></a></li>
+        <li><a href="./clinic">医院紹介<span>Clinic</span></a></li>
+        <li><a href="./access">アクセス・診療時間<span>Access</span></a></li>
+        <li><a href="./access">スタッフ募集<span>Recruit</span></a></li>
+      </ul>
+    </nav>
+    <div class="mainvisual-banner">
+      <ul>
+        <li><a href="./">無料相談</a></li>
+        <li><a href="./">03-5500-3531</a></li>
+        <li><a href="./">Web予約</a></li>
+      </ul>
+      <p id="totop"><img src="./assets/images/totop.png" alt="totop"></p>
+    </div>
+  </div>
+
+
+  <div id="news">
+    <div class="container">
+      <div class="news-content">
+        <h4><span>News</span><span>お知らせ</span></h4>
+        <div>
+          <dl>
+            <dt>2022/07/01</dt>
+            <dd><a href="./">お知らせテキストテキストテキストテキストテキスト</a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="calendar">
+    <div class="container">
+      <div class="cal-content">
+        <div class="cal-left">
+          <h4>台場フロンティアデンタルクリニック</h4>
+          <p class="cal-phone"><span>03-5500-3531</span></p>
+          <p class="cal-address">〒135-0091 <br class="sp">東京都港区台場2-3-2 台場フロンティアビル2F</p>
+          <div class="cal-banner">
+            <div class="cal-banner-content">
+              <p>埼京線直通 りんかい線<br class="sp">「東京テレポート駅」<br class="sp"><span>徒歩2分</span></p>
+              <p>ゆりかもめ線<br class="sp">「お台場海浜公園駅」<br class="sp"><span>徒歩1分</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="cal-right">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./assets/images/cal_img_sp.png">
+            <img src="./assets/images/cal_img.png" alt="Calendar">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main id="main">
+    <section class="sc-consultation">
+      <div class="container">
+        <div class="consul-content">
+          <div class="consul-absolute">
+            <div class="consul-absolute-content">
+              <div>
+                <h5>Free consultation / second opinion</h5>
+                <h4>相談・セカンドオピニオン<span>受付中</span></h4>
+                <p class="consul-description">
+                  この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+                </p>
+                <p class="under-button"><a href="./">お問い合わせはこちら</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="consul-image">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/consultation_img_sp.png">
+              <img src="./assets/images/consultation_img.png" alt="相談・セカンドオピニオン受付中">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-teacher">
+      <div class="sc-teacher-inner">
+        <p class="teacher-absolute-white"></p>
+        <div class="container">
+          <h4 data-aos="fade-up" data-aos-duration="1000"><span>積み上げた技術と経験を</span><br><span>還元する</span></h4>
+          <div class="teacher-des" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+            <p>「可能な限り美しく」、そして「再治療にならない治療」。<br>これが私の診療に対する考え方。</p>
+            <p>これは保険診療でも保険外診療でも変わりはありません。</p>
+            <p>歯に対する考え方は人それぞれだと思いますが、<br>この考えに共感していただける方、是非、私に治療させていただきたい。</p>
+            <p>これまで培ってきた知識・技術はそのために存在します。</p>
+            <p>台場フロンティアデンタルクリニック　院長 <span>飯島 茂</span></p>
+          </div>
+        </div>
+        <div class="teacher-absolute" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <p class="teacher-absolute-img"><img src="./assets/images/teacher_img_sp.png" alt="飯島 茂"></p>
+          <p class="teacher-absolute-text">台場フロンティアデンタルクリニック<br>院長 <span>飯島 茂</span></p>
+        </div>
+      </div>
+    </section>
+    <section class="sc-reason">
+      <div class="container">
+        <div class="reason-title-en">
+          <h4>Reasons to be</h4>
+          <h4>Chosen</h4>
+        </div>
+        <div class="reason-inner">
+          <div class="reason-sticky">
+            <div class="reason-sticky-content">
+              <h5>当院が<br class="sp">選ばれる<br>理由</h5>
+            </div>
+          </div>
+          <div class="reason-list">
+            <div class="reason-item">
+              <div class="reason-heading">
+                <p class="reason-label-images"><img src="./assets/images/reason_label_01.png" alt="Reason 01"></p>
+                <h5>納得していただくまで、しっかり説明</h5>
+              </div>
+              <div class="reason-content">
+                <p class="reason-images"><img src="./assets/images/reason_img_1.jpg" alt="納得していただくまで、しっかり説明"></p>
+                <p class="reason-text">
+                  この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+                  量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章
+                </p>
+              </div>
+            </div>
+            <div class="reason-item">
+              <div class="reason-heading">
+                <p class="reason-label-images"><img src="./assets/images/reason_label_02.png" alt="Reason 02"></p>
+                <h5>個室診療室完備</h5>
+              </div>
+              <div class="reason-content">
+                <p class="reason-images"><img src="./assets/images/reason_img_2.jpg" alt="個室診療室完備"></p>
+                <p class="reason-text">
+                  この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+                  量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章
+                </p>
+              </div>
+            </div>
+            <div class="reason-item">
+              <div class="reason-heading">
+                <p class="reason-label-images"><img src="./assets/images/reason_label_03.png" alt="Reason 03"></p>
+                <h5>総合治療に対応</h5>
+              </div>
+              <div class="reason-content">
+                <p class="reason-images"><img src="./assets/images/reason_img_3.jpg" alt="総合治療に対応"></p>
+                <p class="reason-text">
+                  この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+                  量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-policy">
+      <div class="container">
+        <h3>当院のこだわり<span>Policy</span></h3>
+        <div class="policy-list">
+          <div class="policy-content">
+            <p class="policy-images" data-aos="fade-left" data-aos-duration="1000"><img
+                src="./assets/images/policy_img_1.jpg" alt="可能な限り、痛くない・削らない"></p>
+            <div class="policy-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+              <h4>可能な限り、<br class="sp">痛くない・削らない</h4>
+              <p class="policy-box-description">
+                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
+                行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミー
+                です。文字の大きさ、量、字間、行間等を確認するために入れています。この文章</p>
+              <p class="under-button"><a href="./">さらに詳しく</a></p>
+            </div>
+          </div>
+          <div class="policy-content">
+            <p class="policy-images" data-aos="fade-right" data-aos-duration="1000"><img
+                src="./assets/images/policy_img_2.jpg" alt="先端歯科治療の技術研鑽"></p>
+            <div class="policy-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+              <h4>先端歯科治療の技術研鑽</h4>
+              <p class="policy-box-description">
+                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
+                行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミー
+                です。文字の大きさ、量、字間、行間等を確認するために入れています。この文章</p>
+              <p class="under-button"><a href="./">さらに詳しく</a></p>
+            </div>
+          </div>
+          <div class="policy-content">
+            <p class="policy-images" data-aos="fade-left" data-aos-duration="1000"><img
+                src="./assets/images/policy_img_3.jpg" alt="可能な限り、痛くない・削らない"></p>
+            <div class="policy-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+              <h4>マイクロスコープによる<br class="sp">精密治療</h4>
+              <p class="policy-box-description">
+                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
+                行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミー
+                です。文字の大きさ、量、字間、行間等を確認するために入れています。この文章</p>
+              <p class="under-button"><a href="./">さらに詳しく</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-service">
+      <div class="container">
+        <h3>診療案内<span>Service</span></h3>
+        <div class="service-content">
+          <div class="service-box">
+            <p class="service-box-image"><img src="./assets/images/service_img_1.jpg" alt="マイクロスコープによる精密治療"></p>
+            <h4>マイクロスコープによる<br class="sp">精密治療</h4>
+            <p class="service-box-description">
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れてい
+            </p>
+            <p class="service-box-button"><a href="./">さらに詳しく<span><img src="./assets/images/arrow_btn.png"
+                    alt="arrow"></span></a></p>
+          </div>
+          <div class="service-box">
+            <p class="service-box-image"><img src="./assets/images/service_img_2.jpg" alt="インプラント"></p>
+            <h4>インプラント</h4>
+            <p class="service-box-description">
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れてい
+            </p>
+            <p class="service-box-button"><a href="./">さらに詳しく<span><img src="./assets/images/arrow_btn.png"
+                    alt="arrow"></span></a></p>
+          </div>
+          <div class="service-box">
+            <p class="service-box-image"><img src="./assets/images/service_img_3.jpg" alt="矯正歯科"></p>
+            <h4>矯正歯科</h4>
+            <p class="service-box-description">
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れてい
+            </p>
+            <p class="service-box-button"><a href="./">さらに詳しく<span><img src="./assets/images/arrow_btn.png"
+                    alt="arrow"></span></a></p>
+          </div>
+          <div class="service-box">
+            <p class="service-box-image"><img src="./assets/images/service_img_4.jpg" alt="審美的治療・ホワイトニング"></p>
+            <h4>審美的治療・<br class="sp">ホワイトニング</h4>
+            <p class="service-box-description">
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れてい
+            </p>
+            <p class="service-box-button"><a href="./">さらに詳しく<span><img src="./assets/images/arrow_btn.png"
+                    alt="arrow"></span></a></p>
+          </div>
+        </div>
+        <div class="service-list">
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_1.png">
+              <img src="./assets/images/service_item_1.png" alt="虫歯治療">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_2.png">
+              <img src="./assets/images/service_item_2.png" alt="歯周病">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_3.png">
+              <img src="./assets/images/service_item_3.png" alt="入れ歯">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_4.png">
+              <img src="./assets/images/service_item_4.png" alt="小児歯科">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_5.png">
+              <img src="./assets/images/service_item_5.png" alt="予防治療">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_6.png">
+              <img src="./assets/images/service_item_6.png" alt="矯正治療">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_7.png">
+              <img src="./assets/images/service_item_7.png" alt="インプラント">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_8.png">
+              <img src="./assets/images/service_item_8.png" alt="審美治療">
+            </picture>
+          </div>
+          <div class="service-item">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/service_item_sp_9.png">
+              <img src="./assets/images/service_item_9.png" alt="ホワイトニング">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-trouble">
+      <div class="container">
+        <h3>こんなお悩みありませんか？<span>Trouble</span></h3>
+        <div class="trouble-list-row">
+          <div class="trouble-list">
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_1.png" alt="インプラントにしたい"></p>
+              <p class="trouble-text">インプラント<br>にしたい</p>
+            </div>
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_2.png" alt="抜歯したくない"></p>
+              <p class="trouble-text">抜歯したくない</p>
+            </div>
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_3.png" alt="目立たない矯正がしたい"></p>
+              <p class="trouble-text">目立たない<br>矯正がしたい</p>
+            </div>
+          </div>
+          <div class="trouble-list">
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_4.png" alt="歯を白くしたい"></p>
+              <p class="trouble-text">歯を白くしたい</p>
+            </div>
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_5.png" alt="白くて綺麗な被せ物にしたい"></p>
+              <p class="trouble-text">白くて綺麗な<br>被せ物にしたい</p>
+            </div>
+          </div>
+        </div>
+        <div class="trouble-list-row">
+          <div class="trouble-list">
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_6.png" alt="むし歯を予防したい"></p>
+              <p class="trouble-text">むし歯を<br>予防したい</p>
+            </div>
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_7.png" alt="抜歯したくない"></p>
+              <p class="trouble-text">抜歯したくない</p>
+            </div>
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_8.png" alt="目立たない矯正がしたい"></p>
+              <p class="trouble-text">目立たない<br>矯正がしたい</p>
+            </div>
+          </div>
+          <div class="trouble-list">
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_9.png" alt="歯を白くしたい"></p>
+              <p class="trouble-text">歯を白くしたい</p>
+            </div>
+            <div class="trouble-item">
+              <p class="troubel-image"><img src="./assets/images/trouble_item_10.png" alt="白くて綺麗な被せ物にしたい"></p>
+              <p class="trouble-text">白くて綺麗な<br>被せ物にしたい</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-doctor">
+      <div class="sc-doctor-padding">
+        <div class="container">
+          <h3>台場フロンティア<br class="sp">デンタルクリニックの<br>ドクター<span>Doctor</span>
+          </h3>
+          <div class="doctor-info-images-sp" data-aos="fade-up" data-aos-duration="1000">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/doctor_img_sp.png">
+              <img src="./assets/images/doctor_img.png" alt="院長飯島 茂">
+            </picture>
+          </div>
+          <h4 data-aos="fade-up" data-aos-duration="1000">
+            「自分が患者様だったら・・」を考え、説明に十分な時間をとり、<br>患者様が納得いく最善の治療を心がけております。</h4>
+          <div class="doctor-info">
+            <div class="doctor-info-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+              <p class="doctor-description">
+                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、
+                行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミー
+                です。文字の大きさ、量、字間、行間等を確認するために入れています。この文章</p>
+              <h5><span>Profile</span><span>経歴</span>
+              </h5>
+              <p class="doctor-line"></p>
+              <p class="doctor-description">
+                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章
+              </p>
+            </div>
+            <p class="doctor-info-images" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><img
+                src="./assets/images/doctor_img.png" alt="院長飯島 茂"></p>
+          </div>
+        </div>
+      </div>
+      <p class="doctor-sub-image"><img src="./assets/images/doctor_img_2.jpg" alt="台場フロンティアデンタルクリニックのドクター"></p>
+      <p class="under-button"><a href="./">院内・設備紹介</a></p>
+    </section>
+    <section class="sc-clinic">
+      <h3>院内・設備<span>Clinic</span></h3>
+      <ul class="clinic-slick">
+        <li><img src="./assets/images/clinic_img_3.jpg" alt="slider03"></li>
+        <li><img src="./assets/images/clinic_img_1.jpg" alt="slider01"></li>
+        <li><img src="./assets/images/clinic_img_2.jpg" alt="slider02"></li>
+      </ul>
+      <div class="container">
+        <div class="clinic-box-padding">
+          <div class="clinic-box">
+            <h4>受付</h4>
+            <p class="clinic-box-description">
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、</p>
+            <p class="under-button"><a href="./">院内・設備紹介</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-outline">
+      <div class="container">
+        <h4><span>Clinic outline</span><span>医院情報</span></h4>
+        <div class="outline-list">
+          <div class="outline-item">
+            <p>院名</p>
+            <p>台場フロンティアデンタルクリニック</p>
+          </div>
+          <div class="outline-item">
+            <p>所在地</p>
+            <p>〒135-0091 東京都港区台場2-3-2 台場フロンティアビル2F</p>
+          </div>
+          <div class="outline-item">
+            <p>TEL</p>
+            <p>03-5500-3531</p>
+          </div>
+          <div class="outline-item">
+            <p>URL</p>
+            <p>https://daiba-shika.jp/</p>
+          </div>
+          <div class="outline-item">
+            <p>院名</p>
+            <p>飯島 茂</p>
+          </div>
+          <div class="outline-item">
+            <p>診療科目</p>
+            <p>一般歯科(むし歯、歯周病、小児歯科)、根管治療、予防治療、審美治療・ホワイトニング、矯正治療、インプラント</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="gmap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.961474759243!2d139.77557921474457!3d35.62867624046088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889f72af079ed%3A0xc90be40052ebab0f!2z5Y-w5aC044OV44Ot44Oz44OG44Kj44Ki44OT44Or!5e0!3m2!1sja!2s!4v1659644194029!5m2!1sja!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <section class="sc-info">
+      <div class="container">
+        <h4>群馬院</h4>
+        <p class="info-add">群馬県藤岡市藤岡854</p>
+        <ul class="info-banner">
+          <li><a href="./"><img src="./assets/images/info_banner_1.jpg" alt="banner_1"></a></li>
+          <li><a href="./"><img src="./assets/images/info_banner_2.jpg" alt="banner_2"></a></li>
+        </ul>
+        <ul class="info-contact">
+          <li><a href="tel:0274231177"><img src="./assets/images/ic_phone_black.png" alt="0274-23-1177">0274-23-1177</a>
+          </li>
+          <li><a href="tel:0120676480"><img src="./assets/images/ic_fax_black.png" alt="0120-67-6480">0120-67-6480</a>
+          </li>
+        </ul>
+        <p class="info-banner-big"><img src="./assets/images/info_banner_big.jpg" alt="banner_2"></p>
+      </div>
+    </section>
+  </main>
+<?php include_once(dirname(__FILE__) . "/assets/inc/footer.html"); ?>

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'NotoSansCJKjp-Regular';
+  src: url('../fonts/NotoSansCJKjp-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp-Medium';
+  src: url('../fonts/NotoSansCJKjp-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp-DemiLight';
+  src: url('../fonts/NotoSansCJKjp-DemiLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NotoSansCJKjp-Bold';
+  src: url('../fonts/NotoSansCJKjp-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../fonts/Helvetica-Bold.ttf') format('truetype');
+}
