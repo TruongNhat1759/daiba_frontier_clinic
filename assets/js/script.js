@@ -1,5 +1,6 @@
 $(function () {
     'use strict';
+    AOS.init();
 
     $('.sc-outline').parallax({ imageSrc: './assets/images/outline_bg.jpg' });
     $('.calendar').parallax({ imageSrc: './assets/images/calendar_bg.jpg' });
@@ -9,17 +10,16 @@ $(function () {
     });
 
     $(window).bind('load resize scroll', function () {
-        let windowScrollToTop = $(window).scrollTop();
-        let offsetMainvisual = $('#mainvisual').offset().top + $('#mainvisual').outerHeight() - $('.mainvisual-banner').outerHeight() - $('#gnavi').outerHeight();
-        if (windowScrollToTop > offsetMainvisual && $(window).width() > 1230) {
-            $('.mainvisual-banner').addClass('fixed');
+        const windowScrollToTop = $(window).scrollTop();
+        const offsetGNavi = $('#gnavi').offset().top + $('#gnavi').outerHeight();
+        if (windowScrollToTop > offsetGNavi && $(window).width() > 1230) {
+            $('#gnavi-fixed').addClass('show');
         } else {
-            $('.mainvisual-banner').removeClass('fixed');
+            $('#gnavi-fixed').removeClass('show');
         }
     });
 
     $(window).bind('load', function () {
-        AOS.init();
         $('.clinic-slick').slick({
             autoplay: true,
             dots: false,

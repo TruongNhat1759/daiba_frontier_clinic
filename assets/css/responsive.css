@@ -183,23 +183,13 @@
   }
 
   /****************** Mainvisual *****************/
+  #gnavi-fixed {
+    display: none;
+  }
+
+  /****************** Mainvisual *****************/
   #mainvisual {
     padding-top: 60px;
-  }
-
-  .mainvisual-banner {
-    bottom: 0;
-    left: calc(50% - 180px);
-  }
-
-  /****************** Totop *****************/
-  #totop {
-    position: fixed;
-    margin: 0;
-    z-index: 999;
-    bottom: 50px;
-    right: 3%;
-    width: 40px;
   }
 
   /****************** sc-consultation *****************/
@@ -329,6 +319,32 @@
 }
 
 @media screen and (max-width: 1024px) {
+  /****************** Mainvisual *****************/
+  .mainvisual-banner {
+    left: 0;
+  }
+
+  .mainvisual-banner ul {
+    width: calc(100% - 90px);
+  }
+
+  .mainvisual-banner li:nth-child(1) a {
+    background: var(--color-orange-primary) url('../images/ic_conversation.png')
+      top 12px left calc(50% + 3px) no-repeat;
+    background-size: 50px;
+  }
+
+  /****************** totop *****************/
+  #totop {
+    position: relative;
+    bottom: 0;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    left: 5px;
+    margin: 0;
+  }
+
   /****************** News *****************/
   #news {
     padding: 31px 36px 35px;
@@ -397,6 +413,11 @@
   }
   .service-box-button {
     text-align: center;
+  }
+
+  /****************** footer *****************/
+  #footer {
+    padding-bottom: 80px;
   }
 }
 
@@ -474,20 +495,16 @@
   }
 
   .mainvisual-banner {
-    bottom: 1px;
-    left: calc(50% - 168px);
+    height: 75px;
   }
 
-  .mainvisual-banner a {
-    width: 112px;
-    height: 75px;
-    line-height: 2.2;
-    letter-spacing: 1px;
+  .mainvisual-banner ul {
+    width: calc(100% - 85px);
   }
 
   .mainvisual-banner li:nth-child(1) a {
     background: var(--color-orange-primary) url('../images/ic_conversation.png')
-      top 12px left 40px no-repeat;
+      top 12px left calc(50% + 3px) no-repeat;
     background-size: 46px;
   }
 
@@ -501,6 +518,12 @@
     background: var(--color--blue-main) url('../images/ic_web.png') top 12px
       center no-repeat;
     background-size: 39px;
+  }
+
+  /****************** totop *****************/
+  #totop {
+    width: 75px;
+    left: 5px;
   }
 
   /****************** gnavi *****************/
@@ -1096,7 +1119,6 @@
 
   .info-contact {
     margin-top: 31px;
-    margin-bottom: 36px;
   }
 
   .info-contact a {
@@ -1119,14 +1141,10 @@
     max-width: 22px;
   }
 
-  .info-banner-big {
-    max-width: 375px;
-    margin: 0 auto;
-  }
-
   /****************** footer *****************/
   #footer {
     padding-top: 42px;
+    padding-bottom: 75px;
   }
 
   .ft-logo {
